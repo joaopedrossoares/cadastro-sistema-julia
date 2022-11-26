@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="registration form">
+            <header>Cadastre-se</header>
+            <form action="#" id="user_form">
+              <label for="aluno">Aluno</label>
+              <input type="radio" id="aluno" name="type_user" value="Aluno" style="width: 85%"><br>
+              <label for="professor">Professor</label>
+              <input type="radio" id="professor" name="type_user" value="Professor"><br>
+              <input type="text" placeholder="Digite seu nome" id="name">
+              <input type="text" placeholder="Digite seu email" id="email">
+              <input type="text" placeholder="Digite seu cpf" id="cpf">
+              <input type="password" placeholder="Crie uma senha" id="password">
+              <input type="password" placeholder="Confirme sua senha" id="password_confirm">
+              <input type="button" class="button" id="signup" value="Cadastre-se">
+            </form>
+            <div class="signup">
+              <span class="signup">Já possui cadastro?
+               <a href="index.html">Login</a>
+              </span>
+            </div>
+            <div id="logo">
+              <img src="assets/bp.jpg" width="60px" height="60px">
+          </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

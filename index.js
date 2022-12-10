@@ -50,3 +50,7 @@ function registryUserService(userObject) {
     .then(response => response.json())
     .then(response => console.log(JSON.stringify(response)))
 }
+
+function login() {
+    window.location.href = "/sistema.html";
+}

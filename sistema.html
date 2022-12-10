@@ -67,19 +67,19 @@
                             role="tab">
                             Senha
                         </a>
-                        <a class="list-group-item list-group-item-action" data-toggle="list" href="#" role="tab">
+                        <a class="list-group-item list-group-item-action" data-toggle="list" href="#account" role="tab">
                             Privacidade
                         </a>
-                        <a class="list-group-item list-group-item-action" data-toggle="list" href="#" role="tab">
+                        <a class="list-group-item list-group-item-action" data-toggle="list" href="#payments" role="tab">
                             Pagamentos
                         </a>
-                        <a class="list-group-item list-group-item-action" data-toggle="list" href="#" role="tab">
+                        <a class="list-group-item list-group-item-action" data-toggle="list" href="#calendar" role="tab">
                             Calendário/Horário
                         </a>
-                        <a class="list-group-item list-group-item-action" data-toggle="list" href="#" role="tab">
+                        <a class="list-group-item list-group-item-action" data-toggle="list" href="#schedule" role="tab">
                             Agendamento
                         </a>
-                        <a class="list-group-item list-group-item-action" data-toggle="list" href="#" role="tab">
+                        <a class="list-group-item list-group-item-action" data-toggle="list" href="#paymentData" role="tab">
                             Dados de pagamentos
                         </a>
                     </div>
@@ -233,6 +233,87 @@
                                         <input type="password" class="form-control" id="inputPasswordNew2">
                                     </div>
                                     <button type="submit" class="btn btn-primary">Save changes</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="schedule" role="tabpanel">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Agendamento</h5>
+                                <form>
+                                    <div class="form-group">
+                                        <label for="scheduleLabel">Descrição</label>
+                                        <input type="text" class="form-control" id="scheduleLabel">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="date">Agende na data</label>
+                                        <input type="date" class="form-control" id="date">
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Save changes</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="calendar" role="tabpanel">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Calendario</h5>
+                                <form>
+                                    <div class="form-group">
+                                        <label for="scheduleLabel">Descrição</label>
+                                        <input type="text" class="form-control" id="scheduleLabel" value="Agendamento de aula">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="date">Data de agendamento</label>
+                                        <input type="date" class="form-control" id="date" value="23/03/2034">
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Save changes</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="paymentData" role="tabpanel">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Dados de pagamentos</h5>
+                                <form>
+                                    <div class="form-group">
+                                        <ul>
+                                            <li>
+                                                Aluno: Júlia
+                                            </li>
+                                            <li>
+                                                Numero de Aluno: 09238
+                                            </li>
+                                            <li>
+                                                Aulas Realizadas: 2 no dia 23/04
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="payments" role="tabpanel">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Pagamentos</h5>
+                                <form>
+                                    <div class="form-group">
+                                        <ul>
+                                            <li>
+                                                Aluno: Júlia
+                                            </li>
+                                            <li>
+                                                Numero de Aluno: 09238
+                                            </li>
+                                            <li>
+                                                Pagamentos: Dia 08/09/2019</br> 
+                                                Valor: R$ 23,00
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </form>
                             </div>
                         </div>
